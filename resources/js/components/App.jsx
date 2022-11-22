@@ -1,7 +1,11 @@
 import React from "react";
 
-function App() {
+function App(prop) {
+    // console.log("data", data);
+    console.log("prop", prop);
+
     return (
+        // <div>hello</div>
         <div id="wrp">
             <div id="menu_list">
                 <div class="logo">
