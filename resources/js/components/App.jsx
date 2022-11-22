@@ -5,38 +5,37 @@ function App(prop) {
     console.log("prop", prop);
 
     return (
-    <div>hello</div>
-        // <div id="wrp">
-        //     <div id="menu_list">
-        //         <div class="logo">
-        //             <a href="/">
-        //                 <span>Similar</span>.porn
-        //             </a>
-        //         </div>
-        //         <ul>
-        //             <li class="act">
-        //                 <a href="/">Home</a>
-        //             </li>
-        //             <li>
-        //                 <a href="/type/videos/" title="Sites with Videos">
-        //                     Videos
-        //                 </a>
-        //             </li>
-        //             <li>
-        //                 <a href="/type/pictures/" title="Sites with Pictures">
-        //                     Photos
-        //                 </a>
-        //             </li>
-        //             <li>
-        //                 <a href="/type/webcams/" title="Webcam Sites">
-        //                     Live Cams
-        //                 </a>
-        //             </li>
-        //         </ul>
-        //     </div>
+        // <div>hello</div>
+        <div id="wrp">
+            <div id="menu_list">
+                <div class="logo">
+                    <a href="/">
+                        <span>Similar</span>.porn
+                    </a>
+                </div>
+                <ul>
+                    <li class="act">
+                        <a href="/">Home</a>
+                    </li>
+                    <li>
+                        <a href="/type/videos/" title="Sites with Videos">
+                            Videos
+                        </a>
+                    </li>
+                    <li>
+                        <a href="/type/pictures/" title="Sites with Pictures">
+                            Photos
+                        </a>
+                    </li>
+                    <li>
+                        <a href="/type/webcams/" title="Webcam Sites">
+                            Live Cams
+                        </a>
+                    </li>
+                </ul>
+            </div>
 
-        {
-            /* <div id="block">
+            <div id="block">
                 <div class="sim_by_type">
                     <div class="title">
                         Sites with <span>Videos</span>
@@ -129,8 +128,8 @@ function App(prop) {
                         </div>
                     </div>
                 </div>
-            </div> */
-        }
+            </div>
+        </div>
     );
 }
 
