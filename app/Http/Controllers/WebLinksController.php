@@ -19,7 +19,7 @@ class WebLinksController extends Controller
     {
         try {
             $webLinks = WebLinks::orderBy('id', 'DESC')->get();
-            return view('index', ['data' => json_decode($webLinks, true)]);
+            return view('home', ['data' => json_decode($webLinks, true)]);
         } catch (Exception $e) {
             Log::error($e);
         }

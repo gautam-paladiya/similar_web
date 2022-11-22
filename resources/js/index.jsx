@@ -3,11 +3,15 @@ import React from "react";
 import ReactDOM from "react-dom/client";
 import App from "./components/App";
 
-if (document.getElementById("app")) {
+if (document.getElementById("root")) {
     console.log(" found");
-    const Index = ReactDOM.createRoot(document.getElementById("app"));
+    const element = document.getElementById("root");
 
-    Index.render(<App />);
+    const props = Object.assign({}, element.dataset);
+
+    const Index = ReactDOM.createRoot(element);
+
+    Index.render(<App props={props} />);
 } else {
     console.log("not found");
 }
